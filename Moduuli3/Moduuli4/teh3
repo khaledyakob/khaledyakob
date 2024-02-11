@@ -1,0 +1,23 @@
+# Alustetaan tyhjä lista saaduille luvuille
+
+numerot = []
+
+while True:
+    syöte = input("Syötä luku (tyhjä merkkijono lopettaa): ")
+
+    if syöte == "":
+        break # lopetetaan silmukka, jos käyttäjä syöttää tyhjän merkkijonon
+
+    try:
+        luku = float(syöte) # muutetaan syöte liukuluvuksi
+        numerot.append(luku) # lisätään luku listaan
+
+    except ValueError:
+        print("virallinen syöte. Syötä luku tai tyhjä merkkijono.")
+
+if numerot:
+    pienin = min(numerot)
+    suurin = max(numerot)
+    print(f"Pienin syöttämäsi luku oli {pienin} ja suurin oli {suurin}.")
+else:
+    print("Et syöttänyt yhtään lukua.")

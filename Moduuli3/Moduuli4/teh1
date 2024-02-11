@@ -1,0 +1,10 @@
+import math
+
+print("Katsotaan, onko numero jaollinen kolmella \n")
+num = int(input("Anna numero 1-1000 välillä: "))
+
+while num < 1 or num > 1000:
+    print("Numero on virheellinen. Syötä tehtäväannon mukainen numero!")
+    num = int(input("Anna numero 1-1000 väliltä:"))
+
+print(f"{num} jaettuna 3:lla on: {num/3:.1f}\n")

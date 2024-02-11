@@ -1,0 +1,16 @@
+print("Mimmi on leikkisällä tuulella ja haukkuu kokoajan")
+
+kerrat = int(input("Montako kerta koira haukkuu, anna luku:\n "))
+tehdyt_haukut = 0
+
+
+while tehdyt_haukut < kerrat:
+    print("Mimmi haukkuu wooff wooff wooffffffffff")
+    tehdyt_haukut = tehdyt_haukut + 1
+
+print("Mimmi on tosi riehakar ja haukkuu koko ajan. Voit käskeä sitä lopettamaan")
+käsky = input(" Anna käsky, jos annat (stop) mimmi lopetaa haukkumisen: \n")
+while käsky != 'stop':
+
+    print("Mimmi haukkuu wooff wooff woofffffffff")
+    käsky = input("Anna käsky, jos annat(stop) Mimmi lopettaa haukkumiseen: \n")
