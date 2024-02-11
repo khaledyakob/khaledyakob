@@ -1,0 +1,11 @@
+number = 13
+isPrime = True
+for i in range(2, number):
+    if number % i == 0:
+        isPrime = False
+        print("number ei ole alkuluku")
+print("alkulukutesti suoritettu")
+if isPrime == True:
+    print(f"Luku {number} on alkuluku")
+else:
+    print("Ei ole alkuluku")

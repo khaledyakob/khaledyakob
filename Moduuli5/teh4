@@ -1,0 +1,17 @@
+#Aloitetaan tyhjä lista kaupungien nimien kysymiseen
+
+kaupungit = []
+
+
+
+#käytetään for sulmukka viiden kaupunkien nimien kysymiseen
+
+
+for i in range (5):
+    kaupungit = input(f" syötä kaupunki{i + 1 }: ")
+    kaupungit.appant( kaupunkki )
+#tulostetaan kaupungien nimet allekkain
+
+print("kaupungit")
+for kaupunki in kaupungit:
+    print(kaupunki)

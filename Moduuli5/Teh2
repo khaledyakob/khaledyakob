@@ -1,0 +1,24 @@
+# TODO: kysyy luku käytäjältä
+#jos luku on alle keksi, niin koodin on turha suorittaa
+
+
+luvut = []
+suorita = True
+
+while suorita:
+    syöte = input('Anna luku, tyhjä merkkijono lopettaa: ')
+    if syöte != '':
+        luvut.append(int(syöte))
+    else:
+        suorita = False
+
+print(luvut)
+luvut.sort(reverse=True)
+
+# vaihtoehto 1
+print(luvut[0:5])
+
+# vaihtoehto 2
+for i in range(5):
+    print(i)
+    print(luvut[i])
