@@ -1,0 +1,4 @@
+kuhanpituus = int(input("Anna kuhasi pituus? "))
+
+if kuhanpituus<=37:
+print("kuhan pituus on liian lyhyt, laske takaisin järviin.")
