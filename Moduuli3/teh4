@@ -1,0 +1,10 @@
+vuosi = int(input("Anna vuosi."))
+
+if vuosi % 4 == 0:
+    if vuosi % 100 == 0:
+
+if vuosi % 400 == 0:
+    print(f"{vuosi} vuosi on loop.")
+
+else:
+    print(f"{vuosi} vuosi ei ole loop.")
